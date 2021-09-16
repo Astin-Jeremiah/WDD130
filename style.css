@@ -11,7 +11,7 @@ body {
     background-color: #FBFCFF;   
 }
 
-article.center{
+div.center{
     width: 900px;
     display: block;
     margin: 0px auto 0px auto;
