@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&family=Permanent+Marker&display=swap');
+
+/* --------------------------------------------- */
+/* --------- Branding: Color Palette ----------- */
+/* --------------------------------------------- */
+/* These are the colors of the boxes under the Branding section */
+#swatch1{
+	background-color: #52796F;
+}	
+#swatch2{
+	background-color: #84A98C;
+}	
+#swatch3{
+	background-color: #CAD2C5;
+}	
+#swatch4{
+	background-color: #2F3E46;
+}		
+
+/* ----------------------------------------------------- */
+/* --------- Typography: Heading & Body Copy ----------- */
+/* ----------------------------------------------------- */
+/* These are the font families of all the headings and body copy */
+
+body{
+	font-family: 'Overpass', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Permanent Marker', cursive;
+}
+
+
+/* Paragraph Styles */
+p{
+	color:#272727;
+        text-align: justify;
+        font-size: 16px;
+	/* Other paragraph styles */
+}
+
+/* ------------------------------------- */
+/* --------- Style Guide CSS ----------- */
+/* ------------------------------------- */
+/* The following CSS is used for the styling of the structure of the Style Guide itself */
+body{
+	width: 900px;
+	margin: 10px auto;
+	padding: 20px;
+}
+
+.styleguide{
+	font-family: "Courier New", Courier, monospace;
+}
+
+h1{
+    font-size: 40px;
+    }
+    
+    h2{
+    font-size: 32px;
+    }
+    
+    h3{
+    font-size: 28px;
+    }
+    
+    h4{
+    font-size: 24px;
+    }
+
+    h5{
+        font-size: 18px;
+        }
+
+h1.styleguide, h2.styleguide, h3.styleguide, h4.styleguide, p.styleguide, li {
+	font-family: "Courier New", Courier, monospace;
+    color: #2F3E46;
+}
+
+h1.styleguide {
+    margin: 15px auto 5px auto;
+    text-align: center;
+}
+
+h2.styleguide {
+    margin: 0px auto 0px auto;
+    text-align: center;
+}
+
+h3.styleguide{
+    background-color: #52796F;
+    border-radius: 15px;
+    padding: 15px;
+    margin-left: -15px;
+    color: white;
+}
+
+h4.styleguide {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+.colorgroup{
+    float: left;
+    width: 170px;
+}
+.colorgroup h4{
+	font-size: .9em;
+}
+.colorgroup p{
+    font-size: .8em;
+}
+.clear{
+    clear: both;
+}
+.swatches{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+li.nav {
+    display: inline;
+    margin-right: 15px;
+    font-family: "Courier New", Courier, monospace;
+}
+
+a {
+    color: #2F3E46;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #52796F;
+}
+
+footer p{
+    text-align: center;
+}
