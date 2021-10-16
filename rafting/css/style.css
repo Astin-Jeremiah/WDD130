@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass&family=Permanent+Marker&display=swap');
+
+body {
+	font-size: 18px;
+	margin: 0;
+	padding: 0;
+	color: #2F3E46;
+	font-family: 'Overpass', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Permanent Marker', cursive;
+	letter-spacing: .1rem;
+	margin: 5px 0 5px 0;
+}
+
+h1 {
+	text-align: center;
+}
+
+header, footer {
+	background-color: #84A98C;
+	color: white;
+	display: grid;
+	align-items: center;
+	justify-content: center;
+}
+
+header {
+	padding: 10px;
+	grid-template-columns: 450px 1fr;
+}
+
+footer {
+	grid-template-columns: 1fr 150px;
+	height: 50px;
+}
+
+header img {
+	margin: 0 auto;
+}
+
+footer p {
+	margin: 0;
+	text-align: center;
+}
+
+.page {
+	max-width: 960px;
+	margin: 0 auto;
+	background-color: #CAD2C5;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #2F3E46;
+}
+
+i {
+	font-size: 30px;
+	padding-right: 15px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	display: inline;
+	text-transform: uppercase;
+	padding: 10px 10px 0 10px;
+	font-weight: bold;
+	letter-spacing: .1rem;
+}
