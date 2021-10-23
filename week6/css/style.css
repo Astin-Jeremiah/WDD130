@@ -181,8 +181,6 @@
   grid-column-end: 5;
   grid-row-start: 1;
   grid-row-end: 3;
-  z-index: 1;
-
 }
 .green6 {
   background-color: green;
@@ -206,7 +204,6 @@
   grid-row-end: 6;
   grid-column-start: 2;
   grid-column-end: 6;
-  z-index: 99;
 }
 
 
