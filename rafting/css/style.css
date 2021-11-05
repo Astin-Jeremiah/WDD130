@@ -34,8 +34,6 @@ header, footer {
 
 header {
 	padding: 10px;
-	grid-template-columns: 450px 1fr;
-	grid-template-rows: 1fr 1fr;
 }
 
 
@@ -51,14 +49,11 @@ main {
 }
 
 .top {
-	grid-row: 1;
 	align-self: end;
 }
 
 nav {
-	grid-column: 2;
 	grid-row: 2;
-	align-items: start;
 }
 
 .navigation { 
@@ -99,7 +94,7 @@ footer p {
 }
 
 .page {
-	max-width: 960px;
+	max-width: 980px;
 	margin: 0 auto;
 	background-color: #CAD2C5;
 }
@@ -121,6 +116,7 @@ i:hover {
 .headerimage {
 	position: relative;
 	width: 100%;
+	padding-top: 20px;
 }
 
 .imgcenter {
@@ -204,22 +200,12 @@ i:hover {
 
 .mainbody {
 	display: grid;
-	grid-template-columns: 50% 50%;
-	grid-template-rows: 1fr 1fr;
 	justify-items: center;
 	align-items: center;
-	margin-top: 10px;
-	row-gap: 5px;
-}
-
-.topleft {
-	grid-column: 1;
-	grid-row: 1;
-}
-
-.topright {
-	grid-column: 2;
-	grid-row: 1;
+	margin-top: 20px;
+	row-gap: 10px;
+	column-gap: 5px;
+	padding: 10px;
 }
 
 .middleleft {
@@ -233,7 +219,6 @@ i:hover {
 }
 
 .bottom {
-	grid-row: 3;
 	grid-column: 1 / span 2;
 }
 

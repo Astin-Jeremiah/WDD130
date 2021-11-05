@@ -147,3 +147,8 @@ footer p{
 nav ul {
     text-align: center;
 }
+
+.center {
+    display: block;
+    margin: 0px auto;
+}
