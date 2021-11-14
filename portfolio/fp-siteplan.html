@@ -15,6 +15,7 @@
         <li class="nav"><a href="#map">Site Map</a></li>
         <li class="nav"><a href="#color">Color Scheme</a></li>
         <li class="nav"><a href="#type">Typography</a></li>
+        <li class="nav"><a href="#wire">Wireframes</a></li>
     </ul>
 </nav>
 
@@ -147,9 +148,67 @@
                 earuptatem quiatur?</p>
     </section>
 
+    <section id="wire">
+        <h3 class="styleguide">Wireframes</h3>
+        <div class="center">
+            <div class="mySlides">
+              <img src="images/home.PNG">
+              <div class="caption">
+                Home Page
+              </div>
+            </div>
+            
+            <div class="mySlides">
+              <img src="images/resume.PNG">
+              <div class="caption">
+                Resume Page
+              </div>
+            </div>
+            
+            <div class="mySlides">
+              <img src="images/portfolio.PNG">
+              <div class="caption">
+                Portfolio Page
+              </div>
+            </div>
+            
+            <div class="mySlides">
+              <img src="images/contact.PNG">
+              <div class="caption">
+                Contact Page
+              </div>
+            </div>
+            
+            <div class="control">
+            <button class="flip" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="flip" onclick="plusDivs(1)">&#10095;</button>
+            </div>
+            </div>
+    </section>
+
 </main>
 <footer>
     <p class="styleguide">@2021 WDD 130 Jeremiah Astin</p>
 </footer>
+
+<script>
+    var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
 
 </html>

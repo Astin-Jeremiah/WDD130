@@ -226,6 +226,40 @@ i:hover {
 	width: 92%;
 }
 
+.twocolumn {
+	display: grid;
+	margin: 15px;
+	align-items: center;
+}
+
+.title {
+	grid-column: 1 / span 2;
+}
+
+.left {
+	grid-column: 1;
+	grid-row: 2;
+}
+
+.right {
+	grid-column: 2;
+	grid-row: 2;
+}
+
+hr {
+	background-image: url(../images/paddle.png);
+	height: 110px;
+	background-repeat: no-repeat;
+	background-position: center;
+	border: none;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.flip {
+	transform: rotate(180deg);
+}
+
 
 
 
