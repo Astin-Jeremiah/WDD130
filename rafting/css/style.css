@@ -235,6 +235,13 @@ i:hover {
 
 .title {
 	grid-column: 1 / span 2;
+	font-family: 'Permanent Marker', cursive;
+    letter-spacing: .1rem;
+    margin: 5px 0 5px 0;
+	text-align: center;
+	color: #2F3E46;
+	font-size: 1.5em;
+	font-weight: bold;
 }
 
 .left {
