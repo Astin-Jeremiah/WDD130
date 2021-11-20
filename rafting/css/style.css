@@ -256,8 +256,52 @@ hr {
 	margin-bottom: 15px;
 }
 
-.flip {
-	transform: rotate(180deg);
+.three {
+	display: grid;
+	grid-template-columns: 20% 60% 20%;
+}
+
+form {
+	grid-column: 2;
+	padding: 20px;
+}
+
+.img-container {
+	grid-row: 2;
+	grid-column: span3;
+}
+
+#feat-pic1 {
+	grid-row: 2;
+	grid-column: span 3;
+}
+
+.img-container img {
+	display: block;
+	margin: 0px auto;
+	padding-bottom: 20px;
+}
+
+label {
+	font-weight: bold;
+	display: block;
+}
+
+input, textarea, select {
+	box-sizing: border-box;
+	border: 1px solid #BEBEBE;
+	width: 100%;
+	padding: 7px;
+	font: 15px 'Overpass', sans-serif;
+}
+
+.nobullet {
+	list-style-type: none;
+	padding: 5px;
+}
+
+.small {
+	font: normal normal bold 20px arial;
 }
 
 
