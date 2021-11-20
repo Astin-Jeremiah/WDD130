@@ -230,6 +230,7 @@ i:hover {
 	display: grid;
 	margin: 15px;
 	align-items: center;
+	grid-template-columns: 50% 50%;
 }
 
 .title {
@@ -244,6 +245,11 @@ i:hover {
 .right {
 	grid-column: 2;
 	grid-row: 2;
+	align-self: end;
+}
+
+.end {
+	justify-self: end;
 }
 
 hr {
@@ -256,6 +262,25 @@ hr {
 	margin-bottom: 15px;
 }
 
+.flip {
+	transform: rotate(180deg);
+}
+
+.item label {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.item span {
+	float: right;
+}
+
+.item {
+	margin-bottom: 10px;
+	border-bottom: 1px solid #5c7662;;
+}
+
+
 .three {
 	display: grid;
 	grid-template-columns: 20% 60% 20%;
@@ -263,7 +288,7 @@ hr {
 
 form {
 	grid-column: 2;
-	padding: 20px;
+	padding: 0px 20px 20px 20px;
 }
 
 .img-container {
@@ -282,7 +307,7 @@ form {
 	padding-bottom: 20px;
 }
 
-label {
+li label {
 	font-weight: bold;
 	display: block;
 }
@@ -303,6 +328,11 @@ input, textarea, select {
 .small {
 	font: normal normal bold 20px arial;
 }
+
+.booknow {
+	text-align: center;
+}
+	
 
 
 
