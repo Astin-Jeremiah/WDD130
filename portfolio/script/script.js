@@ -58,7 +58,7 @@ function uncheck() {
 function slider() {
   var dev = document.getElementById("dev");
   var des = document.getElementById("des");
-  console.log(run);
+  console.log("run");
   if (checkBox.checked == true){
     dev.classList.remove("hide");
     des.classList.add("hide");
