@@ -1,28 +1,343 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jeremiah Astin Digital Portfolio</title>
-    <meta name="description" content="A digital portfolio showcasing projects coded in HTML, CSS, PHP, and Javascript by Jeremiah Astin.">
-	<link href="css/style.css" type="text/css" rel="stylesheet" />
-</head>
-<body>
-	<div class="page">
-    <header>
-            <h1 class="top">Portfolio</h1>
-            <nav>    
-            </nav>
-    </header>
-    
-    <main>
-        
-    </main>
-    
-    <footer>
 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jeremiah Astin Digital Portfolio</title>
+  <meta name="description"
+    content="A digital portfolio showcasing projects coded in HTML, CSS, PHP, and Javascript by Jeremiah Astin.">
+  <script src="https://kit.fontawesome.com/4e98ed47d3.js" crossorigin="anonymous"></script>
+  <link href="../css/style.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="page">
+    <header>
+      <img class="center" src="../images/jaa.PNG" alt="Jeremiah Astin">
+      <h1 class="subhead">Jeremiah Astin</h1>
+      <nav>
+        <ul class="navigation">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Resume</a></li>
+          <li><a href="#">Portfolio</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="one">
+        <p class="caps rightside">View Design Projects</p>
+        <div class="switch">
+          <label class="switch">
+            <input type="checkbox" id="check" onclick="slider()"> 
+            <span class="slider"></span>
+          </label>
+        </div>
+        <p class="caps">View Development Projects</p>
+    </div>
+
+      <div class="design threecol" id="des">
+        <h2 class="top">Design Portfolio</h2>
+        <div class="montage">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="../images/montage.jpg" alt="Photo Montage">
+              </div>
+              <div class="flip-card-back">
+                <a href="https://jeremiahastin.wordpress.com/2016/10/20/montage-project/" target="_blank">
+                  <h3>Photo Montage</h3>
+                  <p>Blending two or more images together to create a spiritual phot montage. Created using Adobe
+                    Photoshop.</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="photo">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="../images/photodesign.jpg" alt="Photo Design">
+              </div>
+              <div class="flip-card-back">
+                <a href="https://jeremiahastin.wordpress.com/2016/10/13/photodesign-project/" target="_blank">
+                  <h3>Photodesign</h3>
+                  <p>Use an original photograph to create a photo-design that incorporates a harmonious color scheme.
+                    Created using Adobe Photoshop.</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="magazine">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="../images/video.jpg" alt="Native Video">
+              </div>
+              <div class="flip-card-back">
+                <a href="https://jeremiahastin.wordpress.com/2016/09/29/magazine-cover-project/" target="_blank">
+                  <h3>Native Video</h3>
+                  <p>Produce an original native video for a social media campaign. Created using Adobe Premier.</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="video">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="../images/mag.jpg" alt="Magazine Cover">
+              </div>
+              <div class="flip-card-back">
+                <a href="https://www.youtube.com/watch?v=G6ZzRFQvjtE&index=4&list=UUj3_PXBAeccR_n6XCpsWLpA/"
+                  target="_blank">
+                  <h3>Magazine Cover</h3>
+                  <p>Design an eye-catching professional looking magazine cover. Created using Adobe Photoshop and
+                    InDesign.</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="brochure">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="../images/brochure.jpg" alt="Brochure">
+              </div>
+              <div class="flip-card-back">
+                <a href="https://jeremiahastin.wordpress.com/2016/11/30/brochure-project/" target="_blank">
+                  <h3>Brochure</h3>
+                  <p>Design a full color folding brochure. Created using Adobe Photoshop and InDesign.</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="business">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="../images/business.jpg" alt="Business Identity">
+              </div>
+              <div class="flip-card-back">
+                <a href="https://jeremiahastin.wordpress.com/2016/10/26/business-identity-project/" target="_blank">
+                  <h3>Business Identity</h3>
+                  <p>Create a logo for a company, and then incorporate the logo into a business card and company
+                    letterhead. Created using Adobe Illustrator and InDesign.</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="info">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="../images/info.jpg" alt="Infographic">
+              </div>
+              <div class="flip-card-back">
+                <a href="https://jeremiahastin.wordpress.com/2016/11/02/infographic-project/" target="_blank">
+                  <h3>Infographic</h3>
+                  <p>Create a professional looking infographic that visually displays data. Created using Adobe
+                    Illustrator and InDesign.</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="presentation">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="../images/prezi.jpg" alt="Prezi Presentation">
+              </div>
+              <div class="flip-card-back">
+                <a href="https://jeremiahastin.wordpress.com/2016/10/06/prezi-presentation/" target="_blank">
+                  <h3>Prezi Presentation</h3>
+                  <p>Create a professional looking presentation using the Prezi Presentation software. The presentation
+                    should also highlight some of the unique features and capabilities of Prezi.</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="development threecol hide" id="dev">
+        <h2 class="top">Development Portfolio</h2>
+        <div class="zin">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="../images/zin.png" alt="CSS Zin Garden">
+              </div>
+              <div class="flip-card-back">
+                <a href="https://astin-jeremiah.github.io/wdd331/" target="_blank">
+                  <h3>CSS Zin Garden</h3>
+                  <p>A CSS Zin Garden page styled using only CSS and the SCSS preprocessor.</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tic">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="../images/tic.png" alt="Tic Tac Toe">
+              </div>
+              <div class="flip-card-back">
+                <a href="https://astin-jeremiah.github.io/WDD330/week4/tictactoe.html" target="_blank">
+                  <h3>Tic-Tac-Toe</h3>
+                  <p>A halloween themed tic-tac-toe app.  Created using HTML, CSS, and JavaScript.</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="todo">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="../images/todo.png" alt="To Do List">
+              </div>
+              <div class="flip-card-back">
+                <a href="https://astin-jeremiah.github.io/WDD330/week6/todo.html" target="_blank">
+                  <h3>To Do List App</h3>
+                  <p>A one page mobile optimized on-line to do app.  Created using HTML, CSS, and JavaScript.</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="jeopardy">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="../images/jeopardy.png" alt="Jeopardy">
+              </div>
+              <div class="flip-card-back">
+                <a href="https://www.youtube.com/watch?v=G6ZzRFQvjtE&index=4&list=UUj3_PXBAeccR_n6XCpsWLpA/"
+                  target="_blank">
+                  <h3>Jeopardy</h3>
+                  <p>A one page online version of the game show Jeopardy.  Created using HTML, CSS, and JavaScript.  Trivia questions are pulled form the online trivia database API.</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="shop">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="../images/shop.png" alt="Simulated Shopping Cart">
+              </div>
+              <div class="flip-card-back">
+                <a href="https://hidden-fortress-92221.herokuapp.com/week3/shopping/items.php" target="_blank">
+                  <h3>Simulated Shopping Cart</h3>
+                  <p>A simulated shopping cart experience.  Built using PHP, CSS, and Bootstrap.</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="stream">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="../images/stream.png" alt="Stream Central">
+              </div>
+              <div class="flip-card-back">
+                <a href="https://hidden-fortress-92221.herokuapp.com/project1/index.php" target="_blank">
+                  <h3>Stream Central</h3>
+                  <p>A website designed for users to post reviews of their favorite streaming tv shows and movies.  Built using PHP, CSS, Bootstrap, and Postgres SQL Database.</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="millionaire">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="../images/millionair.png" alt="Who Wants To Be A Millionaire">
+              </div>
+              <div class="flip-card-back">
+                <a href="https://afternoon-crag-79313.herokuapp.com/" target="_blank">
+                  <h3>Who Wants To Be A Millionaire</h3>
+                  <p>A one page online version of the game show Who Wants To Be A Millionaire.  Created using HTML, CSS, JavaScript, utilizing the Node.JS JavaScript frame work.  Trivia questions are pulled form the Online Trivia Database API.</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <footer>
+      <p>&copy; 2021 JEREMIAH ASTIN WDD 130</p>
+      <div class="links">
+        <a href="#" class="mod">Contact Me</a>
+        <a href="./fp-siteplan.html" target="_blank">Site Plan</a>
+      </div>
+      <div class="social">
+        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
     </footer>
-	</div>	
+    <!-- The Modal -->
+    <div id="myModal" class="modal center2">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close end">&times;</span>
+        <div class="three">
+          <form>
+            <h1>Contact Me</h1>
+            <ul>
+              <li class="nobullet">
+                <label>Name:</label>
+                <input type="text" name="name" id="name">
+              </li>
+              <li class="nobullet">
+                <label>Email:</label>
+                <input type="email" id="email" name="email">
+              </li>
+              <li class="nobullet">
+                <label>Message:</label>
+                <textarea name="message"></textarea>
+              </li>
+              <li class="nobullet">
+                <button type="submit" class="btn end">Send Message</button>
+              </li>
+            </ul>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="../script/script.js"></script>
 </body>
+
 </html>
