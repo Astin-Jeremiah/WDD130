@@ -43,25 +43,22 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 
+var checkBox = document.getElementById("check");
+
 function check() {
-  var action = document.getElementById("check");
-  action.checked = true;
+  checkBox.checked = true;
   slider();
 }
 
 function uncheck() {
-  var action = document.getElementById("check");
-  action.checked = false;
+  checkBox.checked = false;
   slider();
 }
 
-
-
 function slider() {
-  var checkBox = document.getElementById("check");
   var dev = document.getElementById("dev");
   var des = document.getElementById("des");
-  console.log(des);
+  console.log(run);
   if (checkBox.checked == true){
     dev.classList.remove("hide");
     des.classList.add("hide");
