@@ -43,6 +43,18 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 
+function check() {
+  var action = document.getElementById("check");
+  action.checked = true;
+}
+
+function uncheck() {
+  var action = document.getElementById("check");
+  action.checked = false;
+}
+
+
+
 function slider() {
   var checkBox = document.getElementById("check");
   var dev = document.getElementById("dev");

@@ -556,6 +556,7 @@ input:checked + .slider:before {
 .caps {
   text-transform: uppercase;
   font-size: 1.17em;
+  cursor: pointer;
 }
 
 .rightside {
