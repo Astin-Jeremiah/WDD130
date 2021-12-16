@@ -286,7 +286,9 @@ li {
   color: #624000;
 }
 
-.iconlink {
+.clear {
+  background-color: transparent;
+  border: none;
   font-size: 18px;
   color: #edb000;
 }
