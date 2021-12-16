@@ -238,7 +238,7 @@ li {
 
 .closed i {
   animation: spin2 0.75s;
-  animation-duration: reverse;
+  animation-direction: reverse;
 }
 
 @keyframes spin {
@@ -286,9 +286,7 @@ li {
   color: #624000;
 }
 
-.clear {
-  background-color: transparent;
-  border: none;
+.iconlink {
   font-size: 18px;
   color: #edb000;
 }
@@ -503,7 +501,7 @@ textarea {
 
 .switch {
   position: relative;
-  display: inline block;
+  display: inline-block;
   width: 60px;
   height: 34px;
   justify-self: center;
